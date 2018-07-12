@@ -372,7 +372,7 @@ then
 	cd ~
 	
 	rm -fr opencv*
-	OPENCV_VER="3.4.1"
+	OPENCV_VER="3.4.2"
 	sudo wget https://github.com/opencv/opencv/archive/${OPENCV_VER}.zip
 	mv ${OPENCV_VER}.zip opencv.zip
 	
